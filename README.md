@@ -2,32 +2,27 @@
 
 Get started with Scala and use Intellij IDEA (tested on 11)
 
-* Scala 2.9.1
-* ScalaTest 1.6.1
+* Scala 2.10.2
+* Specs 2.1.1
 
 ## Using
 
 Run the app
 
-    sbt run
+    ./sbt run
 
 Run tests
 
-    sbt test
+    ./sbt test
 
 
 ## Convert to IDEA project
 
-1. Start sbt
+1. Start sbt, generate IDEA project
 
-    sbt
+    ./sbt gen-idea
 
-2. Within sbt, generate IDEA project
-
-    > gen-idea
-    > exit
-
-3. Open the project in IDEAj from the menu, File -> Open Project ...
+2. Open the project in IDEAj from the menu, File -> Open Project ...
 
 
 
